@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp</title>
+</head>
+<body>
+    <button onclick="PopFunc()">Press tu see pop up</button>
+    <p id="para"></p>
+</body>
+<script>
+    function PopFunc(){
+        var para = document.getElementById("para");
+        var name = prompt("Please enter you name","Hadi Ettefagh");
+        if(name == null || name == ""){
+            console.log("User didn't enter a name");
+            para.innerHTML = "User didn't enter a name";
+        }else{
+            console.log("Hi " + name);
+            para.innerHTML = "Hi " + name;
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum</title>
+    <link rel="stylesheet" href="..\BootStrap\bootstrap.min.css">
+    <link rel="stylesheet" href="Sum.Css">
+</head>
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-6 m-auto mt-5">
+                <h2>Pleas enter inputs</h2>
+                <div class="row mt-4">
+                    <div class="col-6">
+                        <label class="form-label" for="num1">Num1:</label>
+                        <input class="form-control " type="number" id="num1">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label" for="num2">Num2:</label>
+                        <input class="form-control " type="number" id="num2">
+                    </div>
+                </div>
+                <div class="col-2 mt-4 m-auto">
+                    <button class="btn btn-warning" onclick="Sum()" id="sumBtn">Sum</button>
+                </div>
+                <div class="row m-auto mt-4">
+                    <h5>Result: <span id="Result">0</span></h5>
+                </div>
+                <div class="col-2 mt-4 m-auto" id="parent">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Sum.js"></script>
+</html>

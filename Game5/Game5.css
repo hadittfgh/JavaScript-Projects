@@ -1,0 +1,15 @@
+body{
+    background: #000000; background: -moz-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: linear-gradient(to right,  #000000 0%,#0a1852 100%);
+    color: white;
+}
+
+.numb{
+    display: inline !important;
+    width: auto !important;
+}
+
+
+
+#startBtn{
+    vertical-align:baseline;
+}

@@ -1,0 +1,26 @@
+body{
+    background: #000000; background: -moz-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: linear-gradient(to right,  #000000 0%,#0a1852 100%);
+    color: white;
+}
+
+#parent{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 500px;
+    height: 500px;
+    background-color: #ffc107;
+    position: relative;
+    border-radius: 10px;
+}
+
+#childe,#childe2{
+    width: 50px;
+    height: 50px;
+    background-color: #05103c;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#childe2{
+    right: 0;
+}
